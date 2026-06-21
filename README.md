@@ -67,3 +67,21 @@ ACCOUNTS: Maintains account-specific data including account ID, linked customer 
 TRANSACTIONS: Records all debit and credit transactions with details like transaction ID, account ID, amount, type, and timestamp.
 
 These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
+
+## Designing Tools:
+1. Design and implement all the necessary backend tools (functions/APIs) required to support banking operations.
+
+2. This includes creating tools for balance checking, viewing transactions, transferring funds, filtering debit/credit transactions, and generating mini statements.
+
+3. Ensure that each tool interacts correctly with the underlying database and includes essential validations such as sufficient balance checks and valid beneficiary handling.
+
+4. The focus is on building reliable, reusable, and well-structured tools that can be invoked by the agent during execution.
+
+## Building Agent, Testing, & Gradio Implementation
+1. Design and implement the agent orchestration workflow to handle user queries and invoke appropriate tools dynamically.
+
+2. This includes building an intelligent agent capable of interpreting user intent, selecting the correct tool, managing multi-step operations (such as validation before transfer), and formatting responses.
+
+3. Also, test the complete system using sample user queries to validate accuracy, correctness, and robustness of the workflow.
+
+4. Ensure the system handles edge cases such as insufficient balance, invalid inputs, and unsupported queries effectively, providing a smooth and reliable user experience.
