@@ -7,9 +7,7 @@ This project uses the `openai/gpt-oss-120b` model hosted through Groq API for na
 
 ## Environment Setup
 
-Set your Groq API key as:
-
-GROQ_API_KEY
+Set your Groq API key as: GROQ_API_KEY
 
 Do not hardcode API keys in the notebook.
 
@@ -72,7 +70,7 @@ TRANSACTIONS: Records all debit and credit transactions with details like transa
 
 These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
 
-## Guardrails Implemented
+## Guardrails Implemented:
 
 The assistant includes input safety guardrails to restrict non-banking topics such as politics, war, and unrelated queries, ensuring the AI stays within the banking domain.
 
