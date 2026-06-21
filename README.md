@@ -60,16 +60,10 @@ SQLite is a C library that provides a lightweight disk-based database that doesn
 SQLite3 specifically refers to the third version of SQLite.
 Design a structured database to support all banking operations and tool interactions.
 
-customers
+CUSTOMERS: Stores basic customer details such as customer ID, name, and contact information (email).
 
-Stores basic customer details such as customer ID, name, and contact information (email).
+ACCOUNTS: Maintains account-specific data including account ID, linked customer ID, and current balance.
 
-accounts
-
-Maintains account-specific data including account ID, linked customer ID, and current balance.
-
-transactions
-
-Records all debit and credit transactions with details like transaction ID, account ID, amount, type, and timestamp.
+TRANSACTIONS: Records all debit and credit transactions with details like transaction ID, account ID, amount, type, and timestamp.
 
 These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
