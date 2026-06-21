@@ -72,6 +72,12 @@ TRANSACTIONS: Records all debit and credit transactions with details like transa
 
 These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
 
+## Guardrails Implemented
+
+The assistant includes input safety guardrails to restrict non-banking topics such as politics, war, and unrelated queries, ensuring the AI stays within the banking domain.
+
+A financial advice guardrail prevents the assistant from providing personalized investment recommendations, while response length controls ensure concise and user-friendly banking responses.
+
 ## Designing Tools:
 1. Check Account Balance
 2. View Transactions
