@@ -53,3 +53,23 @@ Provide a unified, automated, and efficient banking assistance experience
 ## Workflow Diagram:
 
 <img width="569" height="256" alt="image" src="https://github.com/user-attachments/assets/d8982699-8c57-4ca8-ac71-fbd77608fb6c" />
+
+## SQLite Database Tables:
+SQLite is a C library that provides a lightweight disk-based database that doesn't require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language. Some applications can use SQLite for internal data storage.
+
+SQLite3 specifically refers to the third version of SQLite.
+Design a structured database to support all banking operations and tool interactions.
+
+customers
+
+Stores basic customer details such as customer ID, name, and contact information (email).
+
+accounts
+
+Maintains account-specific data including account ID, linked customer ID, and current balance.
+
+transactions
+
+Records all debit and credit transactions with details like transaction ID, account ID, amount, type, and timestamp.
+
+These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
