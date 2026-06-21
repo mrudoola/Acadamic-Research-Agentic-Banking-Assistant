@@ -73,13 +73,11 @@ TRANSACTIONS: Records all debit and credit transactions with details like transa
 These tables enable efficient data retrieval, transaction processing, and support all agent-driven banking functionalities.
 
 ## Designing Tools:
-1. Design and implement all the necessary backend tools (functions/APIs) required to support banking operations.
-
-2. This includes creating tools for balance checking, viewing transactions, transferring funds, filtering debit/credit transactions, and generating mini statements.
-
-3. Ensure that each tool interacts correctly with the underlying database and includes essential validations such as sufficient balance checks and valid beneficiary handling.
-
-4. The focus is on building reliable, reusable, and well-structured tools that can be invoked by the agent during execution.
+1. Check Account Balance
+2. View Transactions
+3. Filter Transactions Debit/Credit
+4. Transfer Money
+5. Generate Mini Statement
 
 ## Building Agent, Testing, & Gradio Implementation
 1. Design and implement the agent orchestration workflow to handle user queries and invoke appropriate tools dynamically.
@@ -89,3 +87,7 @@ These tables enable efficient data retrieval, transaction processing, and suppor
 3. Also, test the complete system using sample user queries to validate accuracy, correctness, and robustness of the workflow.
 
 4. Ensure the system handles edge cases such as insufficient balance, invalid inputs, and unsupported queries effectively, providing a smooth and reliable user experience.
+
+## Gradio Chat Interface
+
+A user-friendly chat interface using Gradio is built to interact with the Agentic Banking System. It connects the frontend chat UI with the backend agent graph, allowing users to submit queries and receive responses in real time.
